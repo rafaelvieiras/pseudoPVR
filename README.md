@@ -36,6 +36,6 @@ Um programa contem um horario para iniciar e um para terminar.
 - Execute uma listagem dos itens que poderão ser exibidos no dia, levando em conta as Regras de Importação.
 - Verifica se tem alguma regra de execução para horario fixo de exibição de um programa.
     - Caso tenha essa regra, é calculado o intervalo antes e depois que ficará vazio, iniciando ou terminando as 00:00, ou em outro horario fixo. 
-        ex: Se Programa 1 começa as 10:00 e Programa 2 começa as 15:00, deve calcular o tempo entre o fim do programa que começa as 10:00 até o inicio do proximo, as 15:00.
+        ex: Se Programa 1 começa as 10:00 e Programa 2 começa as 15:00, deve calcular o tempo entre o fim do programa que começa as 10:00 até o inicio do próximo, as 15:00.
 - Calcula o tempo total de todas as regras de execução que não são de horário fixo.
 - Divida entre os 1440 minutos do dia (24 Horas) os programas.
